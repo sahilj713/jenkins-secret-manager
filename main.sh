@@ -1,3 +1,4 @@
+#!/bin/bash
 ENVFILE="env_file_brightree_api"
 AWS_SECRET_ID="val/dev"
 AWS_REGION="us-east-1"
