@@ -6,11 +6,12 @@ steps{
 script{
   sh '''
   pwd
-  ls
+  ls -l
   pwd
   chmod +x main.sh
   pwd
-  . main.sh
+  ls -l
+  . ./main.sh
   '''
 }
 }
