@@ -11,7 +11,7 @@ script{
   chmod +x main.sh
   pwd
   ls -l
-  . ./main.sh
+  ./main.sh
   '''
 }
 }
