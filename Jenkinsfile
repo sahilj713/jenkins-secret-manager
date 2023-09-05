@@ -4,7 +4,7 @@ stages{
 stage('get secret from secret manager'){
 steps{
 script{
-sh '''#!/bin/bash
+sh """ #!/bin/bash
 ENVFILE="env_file_brightree_api"
 AWS_SECRET_ID="val/dev"
 AWS_REGION="us-east-1"
@@ -22,8 +22,7 @@ envsubst < env_template > $ENVFILE
 ​
 echo "finished writing envs"
 cat env_file_brightree_api
-'''
-}
+"""
 }
 }
 }
