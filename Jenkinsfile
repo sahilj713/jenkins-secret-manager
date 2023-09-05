@@ -4,7 +4,10 @@ stages{
 stage('get secret from secret manager'){
 steps{
 script{
-. .main.sh/
+  sh '''
+  chmod +x main.sh
+  . ./main.sh
+  '''
 }
 }
 }
