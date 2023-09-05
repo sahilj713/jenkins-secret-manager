@@ -10,10 +10,7 @@ script{
   pwd
   chmod +x main.sh
   pwd
-  . ./main.sh
-  pwd
-  
-  
+  source main.sh
   '''
 }
 }
